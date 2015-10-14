@@ -1,0 +1,8 @@
+<tr>
+  <td><%= vegetable.name %></td>
+  <td><%= vegetable.color %></td>
+  <td><%= vegetable.number %></td>
+  <td><%= link_to 'Show', vegetable %></td>
+  <td><%= link_to 'Edit', edit_vegetable_path(vegetable) %></td>
+  <td><%= link_to 'Destroy', vegetable, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>
